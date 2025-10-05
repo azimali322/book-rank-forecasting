@@ -15,8 +15,8 @@ def download_beijing_air_quality():
     """
     print("Downloading Beijing Multi-Site Air-Quality Data...")
     
-    # Kaggle dataset identifier
-    dataset_name = "saurabhshahane/beijing-multisite-airquality-data"
+    # Kaggle dataset identifier (using publicly accessible dataset)
+    dataset_name = "sid321axn/beijing-multisite-airquality-data-set"
     
     try:
         # Download dataset

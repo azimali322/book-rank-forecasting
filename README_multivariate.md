@@ -2,28 +2,15 @@
 
 This directory contains notebooks for analyzing multivariate time series datasets with multiple features per time step, focusing on feature engineering and transition-based forecasting.
 
-## Datasets
+## Dataset
 
-### 1. Beijing Multi-Site Air-Quality Data (Recommended)
+### Beijing Multi-Site Air-Quality Data
 - **Features**: PM2.5, PM10, SO2, NO2, CO, O3, temperature, pressure, dew point, wind speed
 - **Time Resolution**: Hourly
 - **Sites**: 12 monitoring stations
 - **Period**: 2013-2017
 - **Target**: PM2.5 concentration
 - **Kaggle**: [Beijing Multi-Site Air-Quality Data](https://www.kaggle.com/saurabhshahane/beijing-multisite-airquality-data)
-
-### 2. Appliances Energy Prediction
-- **Features**: Temperature, humidity, pressure, wind speed, visibility, etc.
-- **Time Resolution**: 10 minutes
-- **Target**: Energy consumption
-- **Kaggle**: [Appliances Energy Prediction](https://www.kaggle.com/luisblanche/appliances-energy-prediction)
-
-### 3. Electricity Transformer Temperature (ETT)
-- **Features**: Oil temperature, 6 power load features
-- **Time Resolution**: 1 hour and 15 minutes
-- **Period**: 2 years
-- **Target**: Oil temperature
-- **Kaggle**: [Electricity Transformer Temperature](https://www.kaggle.com/laiguokun/electricity-transformer-temperature)
 
 ## Notebooks
 
@@ -59,7 +46,7 @@ This directory contains notebooks for analyzing multivariate time series dataset
 
 ## Setup
 
-1. **Download datasets**:
+1. **Download dataset**:
    ```bash
    python data_multivariate/download_multivariate_data.py
    ```
@@ -131,9 +118,7 @@ notebooks_multivariate/
 
 data_multivariate/
 ├── download_multivariate_data.py
-├── PRSA_Data_*.csv (Beijing Air Quality)
-├── energydata_complete.csv (Appliances Energy)
-└── ETT-small/ (Electricity Transformer)
+└── PRSA_Data_*.csv (Beijing Air Quality)
 ```
 
 ## Contributing
